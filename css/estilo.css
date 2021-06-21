@@ -1,0 +1,71 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box; 
+}
+
+body {
+  width: auto;
+  margin: auto;
+  height: 100%;
+  background-image: url(/img/Fondo.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 2550px;
+}
+.contenedor{
+  width: 1349px;
+  height: 600px;
+  margin: auto;
+  margin-bottom: 0%;
+}
+
+.contenedor h1{
+  background-color: rgba(210, 105, 30, 0);
+  text-align: center;
+  color: white;
+  margin-top: 6%;
+  font-size: 50px;
+}
+
+.contenedor h2{
+  text-align: center;
+  color: white;
+  margin-bottom: 2%;
+  font-size: 35px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0%;
+  width: 200px;
+  margin-left: 42.5%;
+  background-color: rgba(245, 245, 245, 0);
+}
+
+li {
+  text-align: center;
+  padding: 1%;
+  border: 1px solid #fff;
+}
+
+li a {
+  display: block;
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+li a.activo {
+  background-color: darkmagenta;
+  color: white;
+}
+
+li a:hover:not(.activo) {
+  background-color: darkorchid;
+  color: white;
+}
